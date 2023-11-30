@@ -1,0 +1,408 @@
+.display_flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+#nav_div {
+  display: flex;
+  margin-top: 0.7%;
+  position: fixed;
+  width: 98%; 
+  justify-content: right;
+}
+
+.nav_btn_enlarge {
+  height: auto;
+  width: auto;
+}
+
+.rounded-corners {
+  border-radius: 10px;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #menu_btn:hover {
+  cursor: pointer; 
+  border-width: 3px;
+}
+
+#header-div {
+  background-color: #FF9E00;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#company-name-div {
+  width: auto;
+  float: left;
+}
+
+#company-name1 {
+  font-family: Rubik, Arial Black;
+  font-size: 3rem;
+}
+
+#company-name2 {
+  font-family: Rubik, Arial Black;
+  font-size: 3.5rem;
+}
+
+#company-name3 {
+  font-family: Rubik, Arial Black;
+  font-size: 4rem;
+}
+
+#content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#text-div {  
+  border: solid #FF9E00 5px;
+  margin-top: 30px;
+  font-color: black;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 50px;
+  font-family: Arial Black;
+  margin-bottom: 20px;
+}
+
+#p1 {
+  font-color: black; 
+}
+
+#left-div {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 50%;
+}
+
+#main_img_div {
+  width: 100%;
+  text-align: center;
+}
+
+#main-image {
+  width: 80%;
+  height: 94%;
+  min-height: 94%;
+  margin: 20px auto;
+  margin-bottom: 0px;
+}
+
+#samples_header {
+  text-align: center;
+  font-size: 2em;
+  font-family: Tahoma, Verdana;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  color: white;
+  margin-bottom: 3px;
+}
+
+#samples {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#samples1-5_div, #samples6-10_div {
+  margin-bottom: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.inline {
+  display: flex;
+}
+
+#sample1_div, #sample2_div, #sample3_div, #sample4_div, #sample5_div, #sample6_div, #sample7_div, #sample8_div, #sample9_div, #sample10_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: black;
+  margin: auto auto;
+  width: 20%;
+  border: 3px solid black;
+}
+
+#sample1_div:hover, #sample2_div:hover, #sample3_div:hover, #sample4_div:hover, #sample5_div:hover, #sample6_div:hover, #sample7_div:hover, #sample8_div:hover, #sample9_div:hover, #sample10_div:hover {
+  border: 3px solid #FF9E00;
+  cursor: pointer;
+}
+
+.smaller-image {
+  width: 100%;
+  height: auto;
+}
+
+#sample1_text, #sample2_text, #sample3_text, #sample4_text, #sample5_text, #sample6_text, #sample7_text, #sample8_text, #sample9_text, #sample10_text {
+  font-family: Tahoma Bold, Verdana;
+  color: white;
+}
+
+.font-size {
+  font-size: 1em;
+}
+
+.centered {
+  margin: auto auto;
+  text-align: center; 
+  justify-content: center;
+}
+
+#right-div {
+  width: 50%;  
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto; 
+  height: auto;
+}
+
+#hr1 {
+  width: 90%;
+  height: 3px;
+  background-color: #FF9E00;
+  margin-top: 0px;
+}
+
+#hr2 {
+  width: 90%;
+  height: 3px;
+  background-color: #FF9E00;
+  margin-top: 5px;
+}
+
+#form-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+#form-text {
+  font-family: Tahoma, Verdana;
+  text-align: center;
+  font-size: 1.5em;  
+}
+
+#phone-number, #name, #email {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#dropdown {
+  width: 40%;
+  margin: auto;
+}
+
+#submit_btn {
+  width: auto;
+  height: auto;
+  border-color: grey;
+  margin: 10px auto;
+}
+
+#submit_btn:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#social_media_icons_div {
+  margin-top: 20px;
+  width: 65%;
+}
+
+.icon_dimensions {
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: auto auto;
+  justify-content: center;
+}
+
+.icons_on_hover:hover {
+  cursor: pointer;
+  color: #FF9E00; 
+}
+
+/*Below needs slight adjustment with media query at width 800px to width 720px but any lower than 1em in the media query overlaps*/
+/*MAY NEED TO SET INITIAL ROOT SIZE BUT THIS COULD EFFECT ALL FONT SIZES*/
+
+#correspondants-div {
+  display: flex;
+  flex-direction: column;
+  font-family: Tahoma, Verdana;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#contact_number {
+  margin-top: 20px;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+}
+
+.margin-top-minus-20px {
+  margin-top: -20px;
+}
+
+.margin-top-minus-10px {
+  margin-top: -10px;
+}
+
+@media (max-width: 1300px) {
+  #right-div {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 1160px) {
+  #form-text {
+    font-size: 1em;
+  }
+  .fa-facebook, .fa-twitter, .fa-instagram {
+    font-size: 2.5em !important;
+  }
+  #social_media_icons_div {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 980px) {
+  #nav_div {
+    width: 97.7%;
+  }
+
+@media (max-width: 940px) {
+  #nav_div {
+    width: 97.5%;
+  }
+  .font-size {
+   font-size: 0.8em;
+  }
+  #correspondants-div {
+    font-size: 1em;
+  } 
+  #contact_number {
+    font-size: 1em;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 900px) {
+  #nav_div {
+    width: 97.5%;
+  }
+}
+
+@media (max-width: 800px) {
+  #nav_div {
+    width: 97.4%;
+  }
+  #correspondants-div {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 720px) {
+  #samples {
+    margin-bottom: 30px;
+  }
+  #correspondants-div {
+    font-size: 1.3rem;
+  }
+  #social_media_icons_div {
+    width: 50%; 
+  }
+  #text-div {
+    font-size: 1.5rem;
+  }
+  #content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #left-div {
+    width: 100%;
+  }
+  #main-image {
+    min-width: 70%;
+  }
+  #right-div {
+    min-width: 95%;
+    text-align: center;
+    margin: auto auto;
+  }
+  #img-div {
+    max-height: 190px;
+    text-align: center;
+  }
+  #nav_div {
+    width: 96.5%;
+  }
+}
+
+@media (max-width: 550px) {
+  #nav_div {
+    width: 96%;
+  }
+}
+
+@media (max-width: 400px) {
+  .smaller-image {
+    width: 100%;
+    height: auto;
+  }
+  #nav_div {
+    width: 95.5%;
+  }
+  #social_media_icons_div {
+    width: 70%; 
+  }
+  #text-div {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 386px) {
+  #company-name1 {
+    font-size: 2.5rem
+  }
+  #company-name2 {
+    font-size: 2.5rem
+  }
+  #company-name3 {
+    font-size: 2.5rem;
+  }
+  #nav_div {
+    width: 93.9%;
+  }
+  .font-size {
+    font-size: 0.5em;
+  }
+  #samples_header {
+    font-size: 1.4em;
+  }
+  #text-div {
+    font-size: 1rem;
+  }
+}
