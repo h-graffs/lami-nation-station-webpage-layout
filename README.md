@@ -1,2 +1,2 @@
 # lami-nation-station-webpage-layout
-Webpage layout with form and image selector
+Webpage layout design with form, image selector, slide-out menu and links to social networking pages.
